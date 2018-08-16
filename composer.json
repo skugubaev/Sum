@@ -1,0 +1,13 @@
+{
+    "name": "skugubaev/sum",
+    "description": "simple sum function",
+    "type": "libary",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergei Kugubaev",
+            "email": "skugubaev@simtechdev.com"
+        }
+    ],
+    "require": {}
+}

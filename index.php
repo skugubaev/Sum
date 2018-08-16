@@ -1,12 +1,7 @@
 <?php 
 
-function sum($a, $b)
-{
-    $s = $a + $b;
-    return "Skugubaev says, that $a + $b = $s \n";
-}
+include "src/Sum.php";
 
-$a = 10;
-$b = 15;
+$sum = new Skugubaev\Sum();
 
-echo (sum($a, $b));
+echo ($sum->sum(10, 20));
