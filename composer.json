@@ -9,5 +9,10 @@
             "email": "skugubaev@simtechdev.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Skuguabev\\": "src"
+        }
+    }
 }
